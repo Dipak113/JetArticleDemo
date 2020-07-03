@@ -38,7 +38,7 @@ extension ArticlesViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: Constants.CellIdentifiers.articleTableViewCell, for: indexPath) as! ArticleTableViewCell
         cell.setArticlesOnCellAt(indexPath: indexPath, articleObjects: articlesViewModel.articleObjects)
-        
+        cell.separatorInset = UIEdgeInsets(top: 0, left: 10000, bottom: 0, right: UIScreen.main.bounds.width)
         return cell
 
     }

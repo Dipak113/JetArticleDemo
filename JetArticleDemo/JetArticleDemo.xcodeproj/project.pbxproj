@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5E54DA8A24AF205400B10632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E54DA8924AF205400B10632 /* AppDelegate.swift */; };
 		5E54DA8C24AF205400B10632 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E54DA8B24AF205400B10632 /* SceneDelegate.swift */; };
-		5E54DA8E24AF205400B10632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E54DA8D24AF205400B10632 /* ViewController.swift */; };
 		5E54DA9324AF205800B10632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E54DA9224AF205800B10632 /* Assets.xcassets */; };
 		5E54DA9624AF205800B10632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E54DA9424AF205800B10632 /* LaunchScreen.storyboard */; };
 		5E54DAA024AF20BA00B10632 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E54DA9F24AF20BA00B10632 /* ServerManager.swift */; };
@@ -31,7 +30,6 @@
 		5E54DA8624AF205400B10632 /* JetArticleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JetArticleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E54DA8924AF205400B10632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E54DA8B24AF205400B10632 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E54DA8D24AF205400B10632 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E54DA9224AF205800B10632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E54DA9524AF205800B10632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E54DA9724AF205800B10632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 				5E54DAA324AF210D00B10632 /* View */,
 				5E54DA9E24AF20A700B10632 /* Model */,
 				5E54DA9D24AF209000B10632 /* AppDelegateFiles */,
-				5E54DA8D24AF205400B10632 /* ViewController.swift */,
 				5E54DA9224AF205800B10632 /* Assets.xcassets */,
 				5E54DA9424AF205800B10632 /* LaunchScreen.storyboard */,
 				5E54DA9724AF205800B10632 /* Info.plist */,
@@ -268,7 +265,6 @@
 				5E54DABF24AF22E600B10632 /* ArticlesViewController.swift in Sources */,
 				5E54DAA224AF20F500B10632 /* BuisnessObjectModel.swift in Sources */,
 				5E54DAC124AF230C00B10632 /* BaseViewController.swift in Sources */,
-				5E54DA8E24AF205400B10632 /* ViewController.swift in Sources */,
 				5E54DAB824AF226200B10632 /* IntExtension.swift in Sources */,
 				5E54DABC24AF229F00B10632 /* ImageViewExtension.swift in Sources */,
 				5E54DABA24AF228400B10632 /* ViewExtension.swift in Sources */,
